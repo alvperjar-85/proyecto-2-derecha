@@ -143,11 +143,11 @@ var config = {
             id: 'fifth-identifier',
             alignment: 'right',
             hidden: false,
-            title: 'Chequia',
-            image: './assets/convenciones-mapa-de europa-04.png',
+            title: 'Finlandia',
+            image: './assets/convenciones-mapa-de europa-03.png',
             //description: 'The second chapter flies to Washington, D.C., updates the camera pitch, and slowly rotates. <br>  <br> Washington, D.C., the capital of the United States, is a vibrant city known for its iconic landmarks, including the White House, the U.S. Capitol, and the Washington Monument. It serves as the political heart of the nation and a center for history, culture, and international diplomacy.',
             location: {
-                center: [14.46463, 50.07111],
+                center: [24.94393, 60.16659],
                 zoom: 6.5,
                 pitch: 60,
                 bearing: -43.2,
@@ -169,11 +169,11 @@ var config = {
             id: 'sixth-identifier',
             alignment: 'left',
             hidden: false,
-            title: 'Finlandia',
-            image: './assets/convenciones-mapa-de europa-03.png',
+            title: 'Chequia',
+            image: './assets/convenciones-mapa-de europa-04.png',
             //description: 'Geneva, Switzerland, is a picturesque city nestled along the shores of Lake Geneva, surrounded by the Alps and Jura mountains. Known as a global hub for diplomacy and finance, it is home to numerous international organizations, including the United Nations and the Red Cross.',
             location: {
-                center: [24.94393, 60.16659],
+                center: [14.46463, 50.07111],
                 zoom: 4.52,
                 pitch: 5.1,
                 bearing: 0.00,
@@ -184,31 +184,7 @@ var config = {
             onChapterEnter: [],
             onChapterExit: []
         },
-        {
-            id: 'seventh-identifier',
-            alignment: 'right',
-            hidden: false,
-            title: 'Serbia',
-            image: './assets/convenciones-mapa-de europa-04.png',
-            //description: 'The second chapter flies to Washington, D.C., updates the camera pitch, and slowly rotates. <br>  <br> Washington, D.C., the capital of the United States, is a vibrant city known for its iconic landmarks, including the White House, the U.S. Capitol, and the Washington Monument. It serves as the political heart of the nation and a center for history, culture, and international diplomacy.',
-            location: {
-                center: [15.98157,45.79722],
-                zoom: 6.5,
-                pitch: 60,
-                bearing: -43.2,
-                // flyTo additional controls-
-                // These options control the flight curve, making it move
-                // slowly and zoom out almost completely before starting
-                // to pan.
-                //speed: 2, // make the flying slow
-                //curve: 1, // change the speed at which it zooms out
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: true,
-            callback: '',
-            onChapterEnter: [],
-            onChapterExit: []
-        },
+       
 
         {
             id:'eight-identifier' ,
