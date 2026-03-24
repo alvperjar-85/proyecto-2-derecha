@@ -16,7 +16,7 @@ var config = {
     use3dTerrain: false, //set true for enabling 3D maps.
     auto: false,
     title: 'LA EXTREMA DERECHA EN EUROPA',
-    byline: 'By a I.M. Amapper',
+    //byline: 'By a I.M. Amapper',
     footer: 'Fuentes: La vanguardia y DW<br> Created using <a href="https://github.com/mapbox/storytelling" target="_blank">Mapbox Storytelling</a> template.',
     chapters: [
     {
